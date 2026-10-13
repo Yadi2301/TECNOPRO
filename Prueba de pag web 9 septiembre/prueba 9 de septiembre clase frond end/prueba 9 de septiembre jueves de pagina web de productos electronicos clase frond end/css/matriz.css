@@ -1,0 +1,172 @@
+/* ==========================================
+   ESTILOS GENERALES
+   ========================================== */
+body {
+    background-color: #ffffff;
+    text-align: center;
+    font-family: arial;
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ffffff;
+    font-size: 36px;
+    margin: 10px 0;
+}
+
+h2.seccion-titulo {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    text-align: left;
+    width: 1250px;
+    margin: 30px auto 10px auto;
+    color: #000000;
+}
+
+img {
+    width: 250px;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+header p {
+    color: #3498db;
+    font-style: italic;
+}
+
+/* ==========================================
+   MENÚ DE NAVEGACIÓN
+   ========================================== */
+header {
+    background-color: #0f172a;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+nav a:hover {
+    background-color: #d2e23e;
+    color: rgb(221, 29, 15);
+}
+
+/* Banner intermedio azul */
+.banner-bienvenida {
+    background-color: #1e3a8a;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.banner-bienvenida h2 {
+    color: #ffffff;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+/* ==========================================
+   ESTILOS DE LAS TARJETAS FLEX 
+   ========================================== */
+.principal {
+    width: 1250px;
+    height: auto;
+    min-height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f1f5f9;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.tarjeta {
+    width: 280px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffff;
+    padding: 15px;
+    margin: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.titulo {
+    width: 100%;
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    padding: 8px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.servicio {
+    width: 100%;
+    height: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f8fafc;
+    padding: 8px;
+}
+
+.servicio img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.descripcion {
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+    padding: 12px 0;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #000000;
+}
+
+.boton-comprar {
+    display: inline-block;
+    background-color: #0f172a;
+    color: #ffffff;
+    padding: 8px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    width: 100%;
+}
+
+.boton-comprar:hover {
+    background-color: #1e3a8a;
+}
+
+footer {
+    background-color: #0f172a;
+    padding: 20px;
+    margin-top: 5px;
+}
